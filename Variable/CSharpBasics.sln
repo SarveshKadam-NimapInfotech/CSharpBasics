@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variable", "Variable.csproj", "{CE59C288-0A54-41A5-8565-D7592ED6D0B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable", "Variable.csproj", "{CE59C288-0A54-41A5-8565-D7592ED6D0B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversion", "..\TypeConversion\TypeConversion.csproj", "{20E800A2-2311-40FC-877A-A1A995966139}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversion", "..\TypeConversion\TypeConversion.csproj", "{20E800A2-2311-40FC-877A-A1A995966139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "..\Operators\Operators.csproj", "{2189082D-46CB-4792-90F4-CD6E1C454969}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "..\Operators\Operators.csproj", "{2189082D-46CB-4792-90F4-CD6E1C454969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFundamentals", "..\CSharpFundamentals\CSharpFundamentals.csproj", "{EFCB0053-37E1-4F19-A8CE-489ADBB5A976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals", "..\CSharpFundamentals\CSharpFundamentals.csproj", "{EFCB0053-37E1-4F19-A8CE-489ADBB5A976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "..\Strings\Strings.csproj", "{76D297A4-3CB1-4A3F-92F3-D17B03103C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "..\Enums\Enums.csproj", "{6731F638-28D8-413C-92B0-8795E175EBAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes_ValueTypes", "..\ReferenceTypes_ValueTypes\ReferenceTypes_ValueTypes.csproj", "{2FBBD21A-0D28-40C4-A402-AF4C62CC701A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{EFCB0053-37E1-4F19-A8CE-489ADBB5A976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFCB0053-37E1-4F19-A8CE-489ADBB5A976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFCB0053-37E1-4F19-A8CE-489ADBB5A976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D297A4-3CB1-4A3F-92F3-D17B03103C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D297A4-3CB1-4A3F-92F3-D17B03103C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D297A4-3CB1-4A3F-92F3-D17B03103C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D297A4-3CB1-4A3F-92F3-D17B03103C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6731F638-28D8-413C-92B0-8795E175EBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6731F638-28D8-413C-92B0-8795E175EBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6731F638-28D8-413C-92B0-8795E175EBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6731F638-28D8-413C-92B0-8795E175EBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBBD21A-0D28-40C4-A402-AF4C62CC701A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBBD21A-0D28-40C4-A402-AF4C62CC701A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBBD21A-0D28-40C4-A402-AF4C62CC701A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBBD21A-0D28-40C4-A402-AF4C62CC701A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
