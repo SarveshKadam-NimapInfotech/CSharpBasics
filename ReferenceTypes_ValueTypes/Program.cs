@@ -25,6 +25,7 @@
             var person = new Person();
             var age = MakeOld(20);
             Console.WriteLine(age);
+            Console.WriteLine(age);
 
 
         }
